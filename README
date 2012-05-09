@@ -1,0 +1,8 @@
+d3-twitter-compare is a template for comparing twitter accounts by mhawksey based on:
+
+* Animated Bubble Chart by Jim Vallandingham http://vallandingham.me/bubble_charts_in_d3.html
+* d3.wordcloud by Jason Davies http://www.jasondavies.com/wordcloud/
+
+and also uses the 
+* Twitter Bootstrap
+* Google Visualisation API
