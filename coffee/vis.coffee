@@ -1,4 +1,3 @@
-
 class BubbleChart
   constructor: (data) ->
     @data = data
@@ -30,8 +29,8 @@ class BubbleChart
 
     # nice looking colors - no reason to buck the trend
     @fill_color = d3.scale.ordinal()
-      .domain(["0", "1", "2", "3", "4", "5"])
-      .range(["#66C2A5", "#FC8D62", "#8DA0CB", "#E78AC3", "#A6D854" ])
+      .domain(["0", "1", "2", "3", "4", "5" ,"6", "7"])
+      .range(["#66C2A5", "#FC8D62", "#8DA0CB", "#E78AC3", "#A6D854", "#FFD92F", "#E5C494", "#B3B3B3" ])
 
     # use the max total_amount in the data as the max in the scale's domain
     max_amount_bc = d3.max(@data, (d) -> parseInt(d.betweenness_centrality))
