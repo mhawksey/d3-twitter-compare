@@ -105,7 +105,7 @@ rownames(datagrid) <- screen_name
 # get a comma seperated list if user follows a sub group
 
 # take a copy of the entire network edge list and add column names
-edge = data.frame(connections)
+edge = data.frame(data)
 colnames(edge) <- c('vert1','vert2')
 
 # filter the edge list where source only follows subgroup then sort
